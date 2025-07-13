@@ -1,63 +1,41 @@
 <p align="center">
-  <img src="public/logo.png" alt="AI Offer Generator Logo" width="180"/>
+  <img src="public/logo.png" alt="Logo" width="120" />
 </p>
 
 <h1 align="center">AI Offer Generator</h1>
 
 <p align="center">
-  Create professional, personalized business offers using GPT-4o — generate, rewrite, and export as PDF.
+  A modern web tool that generates professional offers using GPT-4. Includes live rewriting, PDF export, and a clean responsive UI.
 </p>
 
 ---
 
-## 💡 What is this tool?
+### 🚀 Features
 
-**AI Offer Generator** is a modern web app that helps freelancers, consultants, and small business owners quickly create high-quality offers in multiple languages.
-
-- 🧠 Powered by GPT-4o (OpenAI)
-- ✍️ Rewrite your offers with one click
-- 📄 Export polished results as a clean PDF
-- 🌍 Supports English, German, French, Spanish, Arabic, Mandarin (and more)
-- 📋 Copy offer content for emails, websites or WhatsApp
-
----
-
-## ⚙️ Features
-
-- Clean UI with centered layout (HTML + classic CSS)
-- Built with **Next.js 15**, TypeScript, App Router
-- OpenAI API connected via server routes
-- Fully functional: Input → Generate → Rewrite → Export
+- ✍️ GPT-4 powered **offer generation**
+- 📝 **Rewrite** generated text with one click
+- 📄 Export result as **PDF** or copy to clipboard
+- 🌍 Supports **multiple languages** (e.g. English, German)
+- 🖥️ Clean and responsive design using Tailwind
+- ⚡ Built with **Next.js 15** and TypeScript
 
 ---
 
-## 🚀 How to use
+### 📦 Tech Stack
 
-1. Fill in your details (Name, Title, Price, etc.)
-2. Click **Generate Offer**
-3. Review & optionally **Rewrite with AI**
-4. Export final version as **PDF**
-
----
-
-## 📦 Tech Stack
-
-- **Frontend:** Next.js 15 + TypeScript
-- **Styling:** Classic CSS (no Tailwind)
-- **Backend:** OpenAI GPT-4o via API
-- **Hosting:** Vercel
+- Framework: [Next.js 15](https://nextjs.org/)
+- Language: TypeScript
+- Styling: Tailwind CSS
+- API: OpenAI GPT-4
+- Hosting: [Vercel](https://vercel.com/) (recommended)
 
 ---
 
-## 🧪 Status
+### 🛠️ Installation
 
-✅ Fully working – ready for deployment  
-🎯 Built to be reused and sold as a micro SaaS product
+1. Clone the repository:
 
----
-
-## 👤 Author
-
-**MK Digital Works**  
-[https://github.com/MKDigitalWorks](https://github.com/MKDigitalWorks)
+```bash
+git clone https://github.com/MKDigitalWorks/ai-offer-generator.git
+cd ai-offer-generator
 
