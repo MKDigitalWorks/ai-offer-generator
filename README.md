@@ -1,58 +1,63 @@
-# AI-Angebotsgenerator
+<p align="center">
+  <img src="public/logo.png" alt="AI Offer Generator Logo" width="180"/>
+</p>
 
-Ein Next.js-basiertes Webtool zur automatischen Generierung professioneller Angebote mit KI-Unterstützung.
+<h1 align="center">AI Offer Generator</h1>
 
-## Features
+<p align="center">
+  Create professional, personalized business offers using GPT-4o — generate, rewrite, and export as PDF.
+</p>
 
-- Einfaches Formular zur Eingabe von Angebotsdetails
-- KI-gestützte Generierung professioneller Angebote
-- Kopieren des Angebots in die Zwischenablage
-- Export als PDF
-- Responsive Design mit TailwindCSS
+---
 
-## Technologien
+## 💡 What is this tool?
 
-- Next.js 14
-- TypeScript
-- TailwindCSS
-- OpenAI API (GPT-4)
-- React-to-PDF
+**AI Offer Generator** is a modern web app that helps freelancers, consultants, and small business owners quickly create high-quality offers in multiple languages.
 
-## Installation
+- 🧠 Powered by GPT-4o (OpenAI)
+- ✍️ Rewrite your offers with one click
+- 📄 Export polished results as a clean PDF
+- 🌍 Supports English, German, French, Spanish, Arabic, Mandarin (and more)
+- 📋 Copy offer content for emails, websites or WhatsApp
 
-1. Repository klonen:
-```bash
-git clone [repository-url]
-cd ai-angebotsgenerator
-```
+---
 
-2. Abhängigkeiten installieren:
-```bash
-npm install
-```
+## ⚙️ Features
 
-3. Umgebungsvariablen konfigurieren:
-Erstellen Sie eine `.env.local` Datei im Root-Verzeichnis und fügen Sie Ihren OpenAI API-Key hinzu:
-```
-OPENAI_API_KEY=your-api-key-here
-```
+- Clean UI with centered layout (HTML + classic CSS)
+- Built with **Next.js 15**, TypeScript, App Router
+- OpenAI API connected via server routes
+- Fully functional: Input → Generate → Rewrite → Export
 
-4. Entwicklungsserver starten:
-```bash
-npm run dev
-```
+---
 
-Die Anwendung ist nun unter `http://localhost:3000` verfügbar.
+## 🚀 How to use
 
-## Verwendung
+1. Fill in your details (Name, Title, Price, etc.)
+2. Click **Generate Offer**
+3. Review & optionally **Rewrite with AI**
+4. Export final version as **PDF**
 
-1. Öffnen Sie die Startseite
-2. Füllen Sie das Formular mit Ihren Angebotsdetails aus
-3. Klicken Sie auf "Angebot generieren"
-4. Auf der Ergebnis-Seite können Sie das Angebot:
-   - Kopieren
-   - Als PDF exportieren
+---
 
-## Lizenz
+## 📦 Tech Stack
 
-MIT
+- **Frontend:** Next.js 15 + TypeScript
+- **Styling:** Classic CSS (no Tailwind)
+- **Backend:** OpenAI GPT-4o via API
+- **Hosting:** Vercel
+
+---
+
+## 🧪 Status
+
+✅ Fully working – ready for deployment  
+🎯 Built to be reused and sold as a micro SaaS product
+
+---
+
+## 👤 Author
+
+**MK Digital Works**  
+[https://github.com/MKDigitalWorks](https://github.com/MKDigitalWorks)
+
